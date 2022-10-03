@@ -1,5 +1,9 @@
+
+
 workflows:
   my-workflow:
+    environment:
+      xcode: 12.5
     scripts:
       - name: Add provisioning profiles
         script: |
